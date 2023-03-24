@@ -1,59 +1,70 @@
-<!--Meu primeiro portfolio-->
-<!DOCTYPE html public>
-<title>Philipp</title>
+<!DOCTYPE html>
 <html>
+    <meta charset="UTF-8">
+    <title>Philipp Gomes</title>
+    <link rel="stylesheet" href="Untitled-2.css">
+    <script>
+        function dark() {
+        var element = document.body;
+        element.classList.toggle("modo-escuro");
+      }
+    </script>
     <head>
-        <link rel="stylesheet" href="arquivo.css" type="text/CSS"> <!--linkando com o css-->
+        <div class="Modo">
+            <button onclick="dark()">Modo Escuro</button>
+        </div>
+        <h1 class="titulo">Philipp Gomes</h1>
     </head>
-    <body> <!--corpo do site-->
-        <script>
-            /* Caixa de entrada e saida de dados em JavaScript */
-            var nome;
-            nome = window.prompt('Coloque seu nome: ');
-            document.write(nome + ' seja muito bem vindo(a)');
-        </script>
-        <h1 align="center">Bem-Vindo ao meu Portfolio</h1><hr>
-        <p align="center"><em>
-            <FONT
-            face="comic sansms"
-            size="5"
-            >Olá, esse é o meu primeiro <b>website</b>, espero que goste.</FONT>
-        </em></p>
-    <div class="MinhaFoto">
-        <img src="img.jpg"   
-    align="right"></div>
-        <p align="left">
-            <font
-            size="3">
-            Me chamo Philipp Gomes, tenho 24 anos e estou começando no ramo de desenvolvimento web.<br>
-        No momento estou cursando o primeiro período da faculdade de <em>Analise e Desenvolvimento de Sistemas</em> na universidade da <a href="https://www.unisuam.edu.br/">Unisuam</a>.
-    </p>
-    <p align="left">
-        <font
-        size="4">
-        <b>Aqui mostrarei um pouco dos meus cursos:</b><br>
-        <ul>
-            <li>HTML Básico - Fundação Bradesco</li>
+    <body>
+        <img src="img.jpg" align="right" class="minha-foto">
+        <h1 class="subtitulo">Desenvolvedor Full Stack<br>HTML5, CSS, JavaScript, React, PHP.</h1>
+        <ul class="texto">
+            <li>Graduação em Análise e Desenvolvimento de Sistemas (2º período cursando) - Unisuam</li>
             <li>HTML Avançado - Fundação Bradesco</li>
             <li>Inovação em CSS - Fundação Bradesco</li>
             <li>HTML e CSS na Prática - Fundação Bradesco</li>
-            <li>Graduação em Análise e Desenvolvimento de Sistemas (1º período) - Unisuam</li>
+            <li>JavaScript Avançado - Fundação Bradesco</li>
+            <li>Programa Start Capgemini (em andamento)</li>
         </ul>
-    </p>
-            <p align="left">
-                <font
-                size="5">
-                <b>Contatos:</b>
-            </p>
-                    <a href="https://www.instagram.com/philgomesdev/?next=%2F">
-                        <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png"
-                        height="50"
-                        align="left">
-                    </a>
-                    <a href="https://www.linkedin.com/in/philipp-gomes-295a97225/">
-                        <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png"
-                        height="49"
-                        align="left">
-                    </a>
+        <h1 class="subtitulo">Um pouco sobre mim:</h1>
+        <p class="texto">Me chamo Philipp Gomes, tenho 24 anos e sou
+             desenvolvedor front-end altamente motivado e apaixonado por tecnologia,
+             com experiência em  projetos de desenvolvimento de software e habilidades em HTML, CSS,
+              JavaScript e React. Experiência em trabalho em equipe, comunicação efetiva e
+               adaptabilidade em lidar com desafios. Procurando por um estágio em desenvolvimento front-end
+                para continuar a aprender e aplicar minhas habilidades em um ambiente de trabalho dinâmico
+                 e desafiador.</p>
+        <hr>
+            <h1 class="titulo">Meus Projetos</h1>
+            <a href="">
+            <img src="formulario.png" class="formulario-img" align="left">
+            </a>
+            <h1 class="subtitulo"> Forluário de contratação de funcionários:</h1>
+            <p class="texto">Forluário de preenchimento de novos funcionários de uma empresa. Os novos 
+                funcionários preenchem o formulários com seus dados e envia automaticamente para o
+                e-mail da empresa, assim ficando todos os dados armazenados no servidor.
+                Linguagens:HTML/CSS/JAVASCRIPT/PHP.
+            </p><br><br><br><br>
+            <a href="">
+                <img src="menu.png" class="menu-restaurante" align="left">
+            </a>
+            <h1 class="subtitulo">Menu de restaurante</h1>
+            <p class="texto">Menu interativo para restaurantes utilizando as próprias informações
+                do cliente, é possível por todos os itens do cardápio, os horários e os dias de 
+                funcionamento, e informações adicionais do restaurante (localidade, nomes dos 
+                funcionários, história, etc).
+            </p><br><br><br>
+        </p><hr>
+        <h1 class="subtitulo">Meios de Contato:</h1>
+        <a href="https://www.instagram.com/philgomesdev/?next=%2F">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png"
+            height="50"
+            align="left">
+        </a>
+        <a href="https://www.linkedin.com/in/philipp-gomes-295a97225/">
+            <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png"
+            height="49"
+            align="left">
+        </a>
     </body>
 </html>
